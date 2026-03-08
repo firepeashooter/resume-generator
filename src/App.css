@@ -16,7 +16,7 @@
 .display-side {
 	display: flex;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 
 	flex: 1;
 	background-color: royalblue;
@@ -37,4 +37,47 @@
 	max-width: 800px;
 
 	background-color: whitesmoke;
+}
+
+.resume--header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: darkslateblue;
+	color: whitesmoke;
+	padding: 2rem;
+}
+
+.name {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 2rem;
+	font-weight: 600;
+
+	padding: 0;
+	margin: 0;
+
+}
+
+.info>* {
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+}
+
+.info {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+
+.resume--sub--header {
+	color: black;
+	font-weight: 600;
+}
+
+.sub--section {
+	display: flex;
+	justify-content: center;
 }
