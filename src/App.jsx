@@ -1,5 +1,5 @@
 import './App.css'
-import Greeting from './Components/Greeting'
+import PersonalSection from './Components/PersonalSection'
 import Resume from './Components/Resume'
 
 function App() {
@@ -9,6 +9,9 @@ function App() {
 		<div className="app">
 
 			<div className="edit-side">
+
+				<PersonalSection />
+
 
 			</div>
 

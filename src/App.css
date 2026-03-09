@@ -13,6 +13,22 @@
 	margin: 20px
 }
 
+
+.personal--section {
+	min-width: 100px;
+
+	max-width: 300px;
+
+	background-color: whitesmoke;
+}
+
+
+
+
+
+
+
+
 .display-side {
 	display: flex;
 	justify-content: center;
@@ -23,6 +39,9 @@
 
 	margin: 20px
 }
+
+
+
 
 
 
