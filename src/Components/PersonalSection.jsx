@@ -1,3 +1,4 @@
+import InputBox from "./InputBox"
 
 function PersonalSection() {
 
@@ -6,6 +7,10 @@ function PersonalSection() {
 		<div className="personal--section">
 
 			<h2>Personal Information</h2>
+
+			<InputBox />
+
+
 
 
 

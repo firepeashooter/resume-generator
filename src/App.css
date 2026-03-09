@@ -1,3 +1,24 @@
+h2 {
+	padding: 0;
+	margin: 0;
+}
+
+label {
+	margin: 0;
+	padding: 0;
+}
+
+input {
+	border: none;
+	border: 2px solid black;
+	border-radius: 5px;
+}
+
+.input--box {
+	display: flex;
+	flex-direction: column;
+}
+
 .app {
 
 	display: flex;
@@ -7,6 +28,9 @@
 }
 
 .edit-side {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
 	flex: 1;
 	background-color: seagreen;
 
@@ -15,18 +39,19 @@
 
 
 .personal--section {
-	min-width: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
-	max-width: 300px;
+	min-width: 2rem;
+	max-width: 40rem;
+
+	padding: 2rem;
+	padding-top: 1rem;
+	margin: 1rem;
 
 	background-color: whitesmoke;
 }
-
-
-
-
-
-
 
 
 .display-side {
@@ -39,10 +64,6 @@
 
 	margin: 20px
 }
-
-
-
-
 
 
 .resume {
